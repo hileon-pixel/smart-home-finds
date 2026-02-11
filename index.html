@@ -1,0 +1,569 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Smart Home Finds | Amazon Picks</title>
+  <meta name="description" content="Smart Home Finds — curated Amazon picks for a cleaner, smarter home." />
+
+  <style>
+    :root{
+      --bg:#0b0f17;
+      --card:#121a27;
+      --text:#e9eef7;
+      --muted:#a9b3c7;
+      --brand:#4aa3ff;
+      --accent:#22c55e;
+      --border:rgba(255,255,255,.09);
+      --shadow: 0 12px 28px rgba(0,0,0,.35);
+      --radius: 18px;
+      --max: 1180px;
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, "Apple Color Emoji","Segoe UI Emoji";
+      background: radial-gradient(1200px 800px at 20% -10%, rgba(74,163,255,.18), transparent 60%),
+                  radial-gradient(900px 700px at 90% 10%, rgba(34,197,94,.12), transparent 55%),
+                  var(--bg);
+      color:var(--text);
+      line-height:1.45;
+    }
+    a{color:inherit; text-decoration:none}
+    .wrap{max-width:var(--max); margin:0 auto; padding:24px}
+    header{
+      position:sticky; top:0; z-index:10;
+      backdrop-filter: blur(10px);
+      background: linear-gradient(to bottom, rgba(11,15,23,.92), rgba(11,15,23,.65));
+      border-bottom:1px solid var(--border);
+    }
+    .topbar{
+      display:flex; gap:14px; align-items:center; justify-content:space-between;
+      padding:16px 24px;
+      max-width:var(--max);
+      margin:0 auto;
+    }
+    .brand{
+      display:flex; gap:12px; align-items:center;
+      min-width: 260px;
+    }
+
+    /* Optional: use a real logo image by placing logo.png next to index.html,
+       then replace the <div class="logo"> with <img class="logoImg" ...> in HTML */
+    .logo{
+      width:40px; height:40px; border-radius:12px;
+      background: linear-gradient(135deg, rgba(74,163,255,1), rgba(34,197,94,1));
+      box-shadow: 0 10px 20px rgba(0,0,0,.25);
+    }
+    .logoImg{
+      width:40px; height:40px; border-radius:12px;
+      object-fit:cover;
+      box-shadow: 0 10px 20px rgba(0,0,0,.25);
+    }
+
+    .brand h1{font-size:16px; margin:0}
+    .brand p{margin:2px 0 0; color:var(--muted); font-size:12px}
+
+    .controls{
+      display:flex; gap:10px; align-items:center; flex: 1;
+      max-width: 700px;
+    }
+    .search{
+      flex:1;
+      background:rgba(255,255,255,.06);
+      border:1px solid var(--border);
+      border-radius:14px;
+      padding:10px 12px;
+      display:flex; gap:10px; align-items:center;
+    }
+    .search input{
+      width:100%;
+      background:transparent;
+      border:none; outline:none;
+      color:var(--text);
+      font-size:14px;
+    }
+
+    .rightBtns{display:flex; gap:10px; align-items:center; flex-wrap:wrap; justify-content:flex-end}
+    .btn{
+      border:none;
+      padding:10px 12px;
+      border-radius:14px;
+      cursor:pointer;
+      font-weight:700;
+      font-size:13px;
+      border:1px solid var(--border);
+      background:rgba(255,255,255,.06);
+      color:var(--text);
+      white-space:nowrap;
+    }
+    .btn.primary{
+      border:none;
+      background: linear-gradient(135deg, rgba(74,163,255,1), rgba(34,197,94,1));
+      color:#07101b;
+    }
+
+    .hero{
+      margin-top:18px;
+      display:grid;
+      grid-template-columns: 1.2fr .8fr;
+      gap:18px;
+      align-items:stretch;
+    }
+    .heroCard{
+      background:linear-gradient(180deg, rgba(255,255,255,.06), rgba(255,255,255,.03));
+      border:1px solid var(--border);
+      border-radius:var(--radius);
+      box-shadow:var(--shadow);
+      padding:18px;
+    }
+    .heroCard h2{margin:0 0 8px; font-size:22px}
+    .heroCard p{margin:0 0 14px; color:var(--muted)}
+    .badges{display:flex; gap:8px; flex-wrap:wrap}
+    .badge{
+      font-size:12px;
+      padding:6px 10px;
+      border-radius:999px;
+      border:1px solid var(--border);
+      background:rgba(255,255,255,.05);
+    }
+    .disclosure{
+      margin-top:10px;
+      font-size:12px;
+      color:var(--muted);
+    }
+
+    .miniCard{
+      background:linear-gradient(180deg, rgba(255,255,255,.05), rgba(255,255,255,.03));
+      border:1px solid var(--border);
+      border-radius:var(--radius);
+      padding:18px;
+      box-shadow:var(--shadow);
+      display:flex; flex-direction:column; gap:10px;
+      justify-content:space-between;
+    }
+    .miniCard h3{margin:0; font-size:14px}
+    .miniCard ul{margin:0; padding-left:18px; color:var(--muted); font-size:13px}
+    .miniCard li{margin:6px 0}
+
+    .catsRow{
+      margin-top:16px;
+      display:flex; gap:10px; flex-wrap:wrap;
+    }
+    .pill{
+      background:rgba(255,255,255,.06);
+      border:1px solid var(--border);
+      padding:10px 12px;
+      border-radius:14px;
+      color:var(--text);
+      font-size:13px;
+      cursor:pointer;
+      white-space:nowrap;
+    }
+    .pill.active{
+      border-color: rgba(74,163,255,.65);
+      box-shadow: 0 0 0 3px rgba(74,163,255,.12);
+    }
+
+    .sectionTitle{
+      margin:22px 0 12px;
+      display:flex; align-items:center; justify-content:space-between;
+      gap:12px;
+    }
+    .sectionTitle h3{margin:0; font-size:16px}
+    .sectionTitle small{color:var(--muted)}
+
+    .grid{
+      display:grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap:14px;
+    }
+
+    .card{
+      background: linear-gradient(180deg, rgba(255,255,255,.06), rgba(255,255,255,.03));
+      border:1px solid var(--border);
+      border-radius:var(--radius);
+      box-shadow:var(--shadow);
+      overflow:hidden;
+      display:flex;
+      flex-direction:column;
+      min-height: 330px;
+    }
+
+    /* ✅ 1:1 square previews */
+    .img{
+      background: linear-gradient(135deg, rgba(74,163,255,.25), rgba(34,197,94,.18));
+      border-bottom: 1px solid var(--border);
+      aspect-ratio: 1 / 1;
+      width:100%;
+      display:flex; align-items:center; justify-content:center;
+      position:relative;
+      overflow:hidden;
+    }
+    .img img{
+      width:100%;
+      height:100%;
+      object-fit:cover;
+      display:block;
+      transition: transform .35s ease;
+    }
+    .card:hover .img img{ transform: scale(1.05); }
+
+    .img .placeholder{
+      font-size:12px; color:rgba(255,255,255,.85);
+      padding:8px 10px; border-radius:999px;
+      background: rgba(0,0,0,.25);
+      border:1px solid rgba(255,255,255,.12);
+    }
+
+    .content{padding:14px 14px 12px; display:flex; flex-direction:column; gap:10px; flex:1}
+    .title{font-weight:800; font-size:14px; margin:0}
+    .meta{display:flex; gap:8px; flex-wrap:wrap; align-items:center}
+    .tag{
+      font-size:11px; padding:5px 8px; border-radius:999px;
+      background: rgba(255,255,255,.05);
+      border:1px solid var(--border);
+      color: var(--muted);
+    }
+    .price{margin-left:auto; font-weight:800; color:#d9fbe7}
+    .desc{color:var(--muted); font-size:13px; margin:0; flex:1}
+    .actions{display:flex; gap:10px; padding:12px 14px 14px}
+    .actions a, .actions button{
+      flex:1;
+      display:inline-flex; justify-content:center; align-items:center;
+      gap:8px;
+      text-align:center;
+      border-radius:14px;
+      padding:10px 12px;
+      font-size:13px;
+      font-weight:800;
+      cursor:pointer;
+      border:1px solid var(--border);
+      background: rgba(255,255,255,.06);
+      color: var(--text);
+    }
+    .actions a.primary{
+      border:none;
+      background: linear-gradient(135deg, rgba(74,163,255,1), rgba(34,197,94,1));
+      color:#07101b;
+    }
+
+    footer{
+      margin-top:26px;
+      padding:18px 0 34px;
+      border-top:1px solid var(--border);
+      color:var(--muted);
+      font-size:12px;
+    }
+    .footerRow{display:flex; gap:12px; justify-content:space-between; flex-wrap:wrap}
+    .links{display:flex; gap:10px; flex-wrap:wrap}
+    .links a{color:var(--muted); text-decoration:underline; text-underline-offset:3px}
+
+    .toast{
+      position:fixed; left:50%; transform:translateX(-50%);
+      bottom:18px; z-index:200;
+      background:rgba(18,26,39,.95);
+      border:1px solid var(--border);
+      color:var(--text);
+      padding:10px 12px;
+      border-radius:14px;
+      box-shadow:var(--shadow);
+      font-size:13px;
+      opacity:0; pointer-events:none;
+      transition: opacity .2s ease, transform .2s ease;
+    }
+    .toast.show{opacity:1; transform:translateX(-50%) translateY(-6px)}
+
+    @media (max-width: 920px){
+      .hero{grid-template-columns: 1fr; }
+      .grid{grid-template-columns: repeat(2, minmax(0, 1fr));}
+      .brand{min-width:auto}
+    }
+    @media (max-width: 560px){
+      .topbar{flex-direction:column; align-items:stretch}
+      .controls{max-width:none}
+      .grid{grid-template-columns: 1fr}
+      .rightBtns{justify-content:stretch}
+      .rightBtns .btn{flex:1}
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="topbar">
+      <div class="brand">
+        <div class="logo" aria-hidden="true"></div>
+        <!-- If using a real logo image, replace the line above with:
+        <img src="logo.png" class="logoImg" alt="Smart Home Finds logo">
+        -->
+        <div>
+          <h1 id="siteName"></h1>
+          <p id="siteTagline"></p>
+        </div>
+      </div>
+
+      <div class="controls">
+        <div class="search" role="search">
+          <span aria-hidden="true">🔎</span>
+          <input id="q" placeholder="Search products (e.g., robot vacuum, air fryer, kids tablet)..." />
+        </div>
+      </div>
+
+      <div class="rightBtns">
+        <button class="btn" id="copyDisclosure">Copy disclosure</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="hero">
+      <div class="heroCard">
+        <h2>Make your home feel smarter — fast.</h2>
+        <p>
+          Hand-picked items that save time, reduce mess, and upgrade everyday comfort.
+          Tap a product to shop on Amazon.
+        </p>
+        <div class="badges">
+          <span class="badge">✅ Clean categories</span>
+          <span class="badge">🔎 Search</span>
+          <span class="badge">🧾 Affiliate disclosure included</span>
+        </div>
+
+        <div class="catsRow" id="catsRow"></div>
+
+        <div class="disclosure" id="disclosureText"></div>
+      </div>
+
+      <div class="miniCard">
+        <div>
+          <h3>How it works</h3>
+          <ul>
+            <li>Browse categories or search</li>
+            <li>Tap “Shop on Amazon” to buy</li>
+            <li>New picks added regularly</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <div class="sectionTitle" id="products">
+      <h3>Featured picks</h3>
+      <small id="count"></small>
+    </div>
+
+    <section class="grid" id="grid"></section>
+
+    <footer>
+      <div class="footerRow">
+        <div>
+          <strong id="footerName"></strong><br />
+          <span>© <span id="year"></span> — Independent recommendations.</span>
+        </div>
+        <div class="links">
+          <a href="#" id="privacyLink">Privacy</a>
+          <a href="#" id="contactLink">Contact</a>
+          <a href="#" id="disclosureLink">Affiliate disclosure</a>
+        </div>
+      </div>
+
+      <p style="margin-top:12px;">
+        Affiliate disclosure: <span id="footerDisclosure"></span>
+      </p>
+    </footer>
+  </main>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script>
+    const SITE = {
+      name: "Smart Home Finds",
+      tagline: "Small upgrades. Big comfort. Smarter living—one pick at a time.",
+      contactEmail: "hileonint@gmail.com",
+      privacyText: "This page doesn’t collect personal data. Amazon may collect data when you click an Amazon link.",
+      disclosure: "As an Amazon Associate I earn from qualifying purchases."
+    };
+
+    const CATEGORIES = [
+      "All",
+      "Home Cleaning",
+      "Home Entertainment",
+      "Kitchen",
+      "Kids",
+      "Home Workshop",
+      "Home Garden",
+      "Home Fitness"
+    ];
+
+    const PRODUCTS_JSON_URL = "products.json";
+
+    const $ = (sel) => document.querySelector(sel);
+    const toast = $("#toast");
+
+    function showToast(msg){
+      toast.textContent = msg;
+      toast.classList.add("show");
+      setTimeout(()=>toast.classList.remove("show"), 1700);
+    }
+
+    function escapeHtml(str){
+      return String(str)
+        .replaceAll("&","&amp;")
+        .replaceAll("<","&lt;")
+        .replaceAll(">","&gt;")
+        .replaceAll('"',"&quot;")
+        .replaceAll("'","&#039;");
+    }
+    function escapeAttr(str){ return escapeHtml(str); }
+    function escapeJs(str){
+      return String(str)
+        .replaceAll("\\","\\\\")
+        .replaceAll("'","\\'")
+        .replaceAll('"','\\"')
+        .replaceAll("\n","\\n")
+        .replaceAll("\r","\\r");
+    }
+
+    function safeLink(url){
+      if(!url) return "";
+      if(String(url).includes("PASTE_YOUR_AMAZON_LINK_HERE")) return "";
+      return String(url);
+    }
+
+    let products = [];
+    let activeCat = "All";
+    let query = "";
+
+    async function loadProducts(){
+      try{
+        const res = await fetch(PRODUCTS_JSON_URL + "?v=" + Date.now(), { cache: "no-store" });
+        if(!res.ok) throw new Error("Could not load products.json");
+        const data = await res.json();
+        if(!Array.isArray(data)) throw new Error("products.json must be an array");
+        return data;
+      }catch(e){
+        console.error(e);
+        return [];
+      }
+    }
+
+    function renderCats(){
+      const row = $("#catsRow");
+      row.innerHTML = CATEGORIES.map(c => `
+        <button class="pill ${c===activeCat ? "active" : ""}" data-cat="${c}">${c}</button>
+      `).join("");
+
+      row.querySelectorAll(".pill").forEach(btn => {
+        btn.addEventListener("click", () => {
+          activeCat = btn.dataset.cat;
+          renderCats();
+          renderGrid();
+        });
+      });
+    }
+
+    function card(p){
+      const link = safeLink(p.link);
+      const disabled = !link;
+      const tags = (p.tags || []).map(t => `<span class="tag">${escapeHtml(t)}</span>`).join("");
+      const img = (p.imageUrl || "").trim();
+
+      return `
+        <article class="card">
+          <div class="img">
+            ${
+              img
+              ? `<img src="${escapeAttr(img)}" alt="${escapeAttr(p.title)}" loading="lazy"
+                   onerror="this.remove(); this.parentElement.innerHTML='<span class=\\'placeholder\\'>${escapeJs(p.category || "Product")}</span>';">`
+              : `<span class="placeholder">${escapeHtml(p.category || "Product")}</span>`
+            }
+          </div>
+          <div class="content">
+            <p class="title">${escapeHtml(p.title || "")}</p>
+            <div class="meta">
+              <span class="tag">${escapeHtml(p.category || "")}</span>
+              ${tags}
+              ${p.price ? `<span class="price">${escapeHtml(p.price)}</span>` : ``}
+            </div>
+            <p class="desc">${escapeHtml(p.desc || "")}</p>
+          </div>
+          <div class="actions">
+            <a class="primary" href="${link || "#"}" target="_blank" rel="nofollow noopener"
+              ${disabled ? `onclick="event.preventDefault(); alert('Link coming soon.');"` : ""}>
+              Shop on Amazon →
+            </a>
+            <button type="button" onclick="copyLink('${escapeJs(link)}')"
+              ${disabled ? `disabled style="opacity:.5; cursor:not-allowed;"` : ""}>
+              Copy link
+            </button>
+          </div>
+        </article>
+      `;
+    }
+
+    function renderGrid(){
+      const grid = $("#grid");
+      const count = $("#count");
+
+      const q = query.trim().toLowerCase();
+      const filtered = products.filter(p => {
+        const inCat = activeCat === "All" || p.category === activeCat;
+        const blob = ((p.title||"") + " " + (p.desc||"") + " " + (p.tags||[]).join(" ")).toLowerCase();
+        const inQ = !q || blob.includes(q);
+        return inCat && inQ;
+      });
+
+      grid.innerHTML = filtered.map(card).join("");
+      count.textContent = `${filtered.length} showing`;
+
+      if(filtered.length === 0){
+        grid.innerHTML = `
+          <div style="grid-column:1/-1; padding:16px; color:var(--muted); border:1px solid var(--border); border-radius:14px; background:rgba(255,255,255,.03);">
+            No products found. Try a different search or category.
+          </div>
+        `;
+      }
+    }
+
+    window.copyLink = async function(url){
+      try{
+        await navigator.clipboard.writeText(url);
+        showToast("Link copied ✅");
+      }catch{
+        showToast("Couldn’t copy — long press to copy.");
+      }
+    }
+
+    // Init text
+    $("#siteName").textContent = SITE.name;
+    $("#footerName").textContent = SITE.name;
+    $("#siteTagline").textContent = SITE.tagline;
+    $("#disclosureText").textContent = SITE.disclosure;
+    $("#footerDisclosure").textContent = SITE.disclosure;
+    $("#year").textContent = new Date().getFullYear();
+
+    $("#q").addEventListener("input", (e)=>{ query = e.target.value; renderGrid(); });
+
+    $("#copyDisclosure").addEventListener("click", async ()=>{
+      try{
+        await navigator.clipboard.writeText(SITE.disclosure);
+        showToast("Disclosure copied ✅");
+      }catch{
+        showToast("Couldn’t copy disclosure.");
+      }
+    });
+
+    $("#privacyLink").addEventListener("click",(e)=>{ e.preventDefault(); alert(SITE.privacyText); });
+    $("#contactLink").addEventListener("click",(e)=>{ e.preventDefault(); window.location.href = "mailto:" + SITE.contactEmail + "?subject=Smart Home Finds Inquiry"; });
+    $("#disclosureLink").addEventListener("click",(e)=>{ e.preventDefault(); alert(SITE.disclosure); });
+
+    // Start
+    renderCats();
+    (async function init(){
+      products = await loadProducts();
+      renderGrid();
+    })();
+  </script>
+</body>
+</html>

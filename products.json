@@ -1,0 +1,12 @@
+[
+  {
+    "id": "robotvac1",
+    "title": "Self-Emptying Robot Vacuum",
+    "category": "Home Cleaning",
+    "tags": ["Robot Vacuum", "Self-empty", "Pet hair"],
+    "price": "$$$",
+    "desc": "A true time-saver that keeps floors clean automatically.",
+    "link": "PASTE_YOUR_AMAZON_LINK_HERE",
+    "imageUrl": ""
+  }
+]
