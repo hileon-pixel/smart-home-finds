@@ -3,24 +3,22 @@
     "id": "Airpurify1",
     "title": "BLUEAIR Air Purifier",
     "category": "Home Cleaning",
-    "tags": ["Air puriflier", "Clean air", "Healthy home"],
+    "tags": ["Air purifier", "Clean air", "Healthy home"],
     "price": "",
     "desc": "Large Rooms & Home - Odor Eliminating Cleans up to 3385 ft², HEPASilent, Smart WiFi, Auto Mode, Doubles as Table, Removes Dust, Smoke, Pet Hair, AHAM Verified, Blue Signature",
     "link": "https://amzn.to/4r8XjfR",
     "imageUrl": "https://m.media-amazon.com/images/I/81gvQr-4MSL._AC_SL1500_.jpg"
-  }
-]
+  },
   {
     "id": "cordlessvac1",
     "title": "Eureka Cordless Vacuum",
     "category": "Home Cleaning",
-    "tags": ["Cordless Vacuum", "Smart sense", "Pet hair"],
+    "tags": ["Cordless Vacuum", "Smart Sense", "Pet hair"],
     "price": "",
     "desc": "Smart Sense - 60 Min Runtime, Anti-Tangle Nozzle for Pet Hair, Auto-Suction for Hardwood & Carpet, H13 HEPA Filter NEC451BL.",
     "link": "https://amzn.to/4qvaZRj",
-    "imageUrl": "https://m.media-amazon.com/images/I/71OSYcbnz+L._AC_SL1500_.jpg"
-  }
-]
+    "imageUrl": "https://m.media-amazon.com/images/I/71OSYcbnz%2BL._AC_SL1500_.jpg"
+  },
   {
     "id": "oven1",
     "title": "Panasonic FlashXpress Toaster Oven Countertop",
@@ -32,4 +30,3 @@
     "imageUrl": "https://m.media-amazon.com/images/I/8161T5X9p0L._AC_SL1500_.jpg"
   }
 ]
-
