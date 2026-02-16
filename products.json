@@ -28,5 +28,76 @@
     "desc": "4-Slice Small Toaster Oven Compact Size with Double Infrared Heating, 6 Auto Cook Options and Precise Temperature Control, 1300W - NB-G110P",
     "link": "https://amzn.to/4atq3sA",
     "imageUrl": "https://m.media-amazon.com/images/I/8161T5X9p0L._AC_SL1500_.jpg"
+  },
+  {
+    "id": "showerhd1",
+    "title": "G-Promise All Metal 16 Inch Shower Head",
+    "category": "Home Cleaning",
+    "tags": ["Home shower", "Bath", "Shower Head"],
+    "price": "",
+    "desc": "Massage Mode Handheld, Rain Shower Head with Handheld Spray Combo",
+    "link": "https://amzn.to/4kDpMbp",
+    "imageUrl": "https://m.media-amazon.com/images/I/81puSL3q4uL._AC_SL1500_.jpg"
+  },
+  {
+    "id": "soundbr1",
+    "title": "ULTIMEA 7.1ch Virtual Surround Sound Bar",
+    "category": "Home Entertainment",
+    "tags": ["Home Entertainment", "Sound Bar", "Home Theater"],
+    "price": "",
+    "desc": "Sound Bar for Smart TV with 4 Surround Speakers, Peak Power 330W",
+    "link": "https://amzn.to/4rTV6Fg",
+    "imageUrl": "https://m.media-amazon.com/images/I/611BRMOGjnL._AC_SL1500_.jpg"
+  },
+  {
+    "id": "oven2",
+    "title": "Ninja DG551 Foodi Smart XL 6-in-1",
+    "category": "Home Kitchen",
+    "tags": ["Home Kitchen", "Oven", "Grill"],
+    "price": "",
+    "desc": "Indoor Grill with Air Fry, Roast, Bake, Broil, & Dehydrate, Foodi Smart Thermometer",
+    "link": "https://amzn.to/4kGYkJK",
+    "imageUrl": "https://m.media-amazon.com/images/I/719PA1zrZ9L._AC_SL1500_.jpg"
+  },
+  {
+    "id": "Smartlck1",
+    "title": "Smart Door Lock with Apple Home Ecosystem",
+    "category": "Home Workshop",
+    "tags": ["Home Lock", "Smartlock", "Fingerprint lock"],
+    "price": "",
+    "desc": "Fingerprint Keyless Entry Door Lock Safety Keypad Deadbolt with Code, Built-in Wi-Fi, IP65",
+    "link": "https://amzn.to/4bXCn6Y",
+    "imageUrl": "https://m.media-amazon.com/images/I/61mZWt7YYRL._AC_SL1500_.jpg"
+  },
+  {
+    "id": "icemkr1",
+    "title": "ecozy Nugget Ice Maker Dispenser",
+    "category": "Home Kitchen",
+    "tags": ["Home Ice", "Ice maker", "Ice"],
+    "price": "",
+    "desc": "Smart 2-in-1 Pebble Ice Machine Countertop & Water Dispenser with App Control",
+    "link": "https://amzn.to/40bmx1c",
+    "imageUrl": "https://m.media-amazon.com/images/I/71IoLfzECAL._AC_SL1500_.jpg"
+  },
+  {
+    "id": "robotvac2",
+    "title": "Robot Vacuum and Mop Combo",
+    "category": "Home Cleaning",
+    "tags": ["Home cleaning", "robot vacuum", "robot mop"],
+    "price": "",
+    "desc": "Robot Vacuum Self-Emptying with 11500Pa Suction, 70-Day Capacity",
+    "link": "https://amzn.to/4tFr89q",
+    "imageUrl": "https://m.media-amazon.com/images/I/6123rpb7C7L._AC_SL1500_.jpg"
+  },
+  {
+    "id": "oven3",
+    "title": "VAL CUCINA 7-in-1 Steam Convection Oven",
+    "category": "Home Kitchen",
+    "tags": ["Home Oven", "Oven", "Air Fryer"],
+    "price": "",
+    "desc": "Countertop with Air Fry, Bake, Sous Vide, Ferment, Built-in Recipes",
+    "link": "https://amzn.to/4rkz1Q3",
+    "imageUrl": "https://m.media-amazon.com/images/I/71iLtS33nzL._AC_SL1500_.jpg"
   }
 ]
+
