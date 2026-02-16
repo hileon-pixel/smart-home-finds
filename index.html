@@ -193,20 +193,20 @@
 
     /* ✅ 1:1 square previews */
     .img{
-      background: linear-gradient(135deg, rgba(74,163,255,.25), rgba(34,197,94,.18));
-      border-bottom: 1px solid var(--border);
       aspect-ratio: 1 / 1;
-      width:100%;
-      display:flex; align-items:center; justify-content:center;
-      position:relative;
+      background:#0f172a;
+      border-bottom:1px solid var(--border);
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      padding:18px;              /* 🔥 adds space around image */
       overflow:hidden;
     }
     .img img{
       width:100%;
       height:100%;
-      object-fit:cover;
+      object-fit:contain;   /* 🔥 shows full image */
       display:block;
-      transition: transform .35s ease;
     }
     .card:hover .img img{ transform: scale(1.05); }
 
@@ -567,4 +567,5 @@
   </script>
 </body>
 </html>
+
 
