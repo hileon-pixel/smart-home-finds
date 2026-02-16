@@ -203,10 +203,11 @@
       overflow:hidden;
     }
     .img img{
-      width:100%;
+      width:100%;              /* 🔥 shrink image */
       height:100%;
-      object-fit:cover;
+      object-fit:contain;     /* keeps full image visible */
       display:block;
+      margin:auto;            /* center it */
       transition: transform .35s ease;
     }
     .card:hover .img img{ transform: scale(1.05); }
@@ -568,6 +569,7 @@
   </script>
 </body>
 </html>
+
 
 
 
