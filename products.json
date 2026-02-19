@@ -1,5 +1,25 @@
 [
   {
+    "id": "Airpurify2",
+    "title": "Alen Air Purifier BreatheSmart 75i",
+    "category": "Home Cleaning",
+    "tags": ["Air purifier", "Clean air", "Healthy home"],
+    "price": "",
+    "desc": "HEPA Fresh Filter + Carbon for Large Rooms up to 2800 Sq. Ft",
+    "link": "https://www.amazon.com/dp/B0F99CTJPC?ref=t_ac_view_request_product_image&campaignId=amzn1.campaign.NG3C4DJTUJBD&linkCode=tr1&tag=hileon02-20&linkId=amzn1.campaign.NG3C4DJTUJBD_1771503722390",
+    "imageUrl": "https://m.media-amazon.com/images/I/71Z8-LpqHhL._AC_SL1500_.jpg"
+  },
+  {
+    "id": "Airpurify3",
+    "title": "Air Oasis iAdaptAir 2.0 H13",
+    "category": "Home Cleaning",
+    "tags": ["Air purifier", "Clean air", "Healthy home"],
+    "price": "",
+    "desc": "HEPA Filter Air Purifier Reduces 99% of Viruses, Mold, Dust, Smoke, Pollen & Odors Quietest on The Market",
+    "link": "https://www.amazon.com/dp/B07HMGRBYT?ref=t_ac_view_request_product_image&campaignId=amzn1.campaign.2A7U7GL8CDTXK&linkCode=tr1&tag=hileon02-20&linkId=amzn1.campaign.2A7U7GL8CDTXK_1771503990669",
+    "imageUrl": "https://m.media-amazon.com/images/I/51GS+PFKkSL._AC_SL1500_.jpg"
+  },
+  {
     "id": "Airpurify1",
     "title": "BLUEAIR Air Purifier",
     "category": "Home Cleaning",
@@ -100,4 +120,5 @@
     "imageUrl": "https://m.media-amazon.com/images/I/71iLtS33nzL._AC_SL1500_.jpg"
   }
 ]
+
 
