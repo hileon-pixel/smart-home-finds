@@ -52,7 +52,7 @@
   {
     "id": "oven1",
     "title": "Panasonic FlashXpress Toaster Oven Countertop",
-    "category": "Kitchen",
+    "category": "Home Kitchen",
     "tags": ["Home cook", "Toaster", "Oven"],
     "price": "",
     "desc": "4-Slice Small Toaster Oven Compact Size with Double Infrared Heating, 6 Auto Cook Options and Precise Temperature Control, 1300W - NB-G110P",
@@ -162,7 +162,7 @@
   {
     "id": "Carlift",
     "title": "QuickJack 8000TLX",
-    "category": "Home Workhop",
+    "category": "Home Workshop",
     "tags": ["Car Jack", "Car Lift", "Home Guarage"],
     "price": "",
     "desc": "Portable Car Lift with 8,000lb Capacity, with 110V Power Unit, Safe & Portable Design Garage Lift",
@@ -202,7 +202,7 @@
   {
     "id": "Securitycamera",
     "title": "aosu Solar Security Cameras",
-    "category": "Home Securty",
+    "category": "Home Security",
     "tags": ["Security Camera", "Home Security", "Solar Cameras"],
     "price": "",
     "desc": "Wireless Outdoor, 2-Cam Kit, 2K QHD Home Security System with 166° Ultra-Wide Angle",
@@ -296,7 +296,7 @@
     "tags": ["AR Glasses", "Home Entertainment", "VR"],
     "price": "",
     "desc": "HDR10 Video Display, Vision 4000 Chip, Audio by Bang & Olufsen, 3D Movies & Gaming Smart Glasses",
-    "link": "https://tinyurl.com/5276rvxb",
+    "link": "https://amzn.to/4bidLDP",
     "imageUrl": "https://m.media-amazon.com/images/I/61IVmkuUBBL._AC_SL1500_.jpg"
   },
   {
@@ -343,7 +343,7 @@
     "id": "Smartcalendar",
     "title": "Apolosign 15.6-inch Digital Calendar",
     "category": "Home Living",
-    "tags": ["Home Monitor", "Home Organizer", "Home Calendar"]
+    "tags": ["Home Monitor", "Home Organizer", "Home Calendar"],
     "price": "",
     "desc": "Dual Mode Smart Wall Planner, No Subscription, Install Apps, Sync Calendars, Electronic Touchscreen Interactive Display for Family",
     "link": "https://amzn.to/4sbI32n",
@@ -353,7 +353,7 @@
     "id": "Fitnessbike1",
     "title": "YOSUDA Exercise Bike",
     "category": "Home Fitness",
-    "tags": ["Home Fitness", "Home Gym", "Home Exercise"]
+    "tags": ["Home Fitness", "Home Gym", "Home Exercise"],
     "price": "",
     "desc": "Brake Pad Stationary Bike for Home with Exclusive App, Magnetic Indoor Cycling Bike with 300 lb Weight Capacity",
     "link": "https://tinyurl.com/2mb2f38y",
@@ -363,7 +363,7 @@
     "id": "Gazebo",
     "title": "Aoxun 10x12 Gazebo",
     "category": "Home Living",
-    "tags": ["Home Gazebo", "Home Outdoor", "Home Activty"]
+    "tags": ["Home Gazebo", "Home Outdoor", "Home Activty"],
     "price": "",
     "desc": "Hardtop Gazebo with Double Galvanized Steel Roof Outdoor Pavilion with Breathable Netting and Privacy Curtain for Backyard",
     "link": "https://amzn.to/4bbJDdh",
@@ -373,7 +373,7 @@
     "id": "Coffeemachine",
     "title": "Rocket Espresso",
     "category": "Home Kitchen",
-    "tags": ["Home Kitchen", "Home Coffee", "Espresso Machine"]
+    "tags": ["Home Kitchen", "Home Coffee", "Espresso Machine"],
     "price": "",
     "desc": "Rocket Espresso Appartamento TCA Espresso Machine (Black/Copper)",
     "link": "https://amzn.to/3P8IrQu",
@@ -383,7 +383,7 @@
     "id": "HomeVacuum2",
     "title": "Bissell Vacuum Cleaner",
     "category": "Home Cleaning",
-    "tags": ["Home Cleaner", "Home Vacuum", "Vacuum Machine"]
+    "tags": ["Home Cleaner", "Home Vacuum", "Vacuum Machine"],
     "price": "",
     "desc": "Bissell Pet Hair Eraser Allergen Lift-Off with Powerful Suction, HEPA, Tangle-Free Brush Roll, 39883",
     "link": "https://amzn.to/40kDuXf",
@@ -393,7 +393,7 @@
     "id": "Showerhead",
     "title": "G-Promise All Metal 14 Inches Rain Shower Head",
     "category": "Home Bath",
-    "tags": ["Home Cleaner", "Home Vacuum", "Vacuum Machine"]
+    "tags": ["Home Batch", "Home Shower", "Shower Head"],
     "price": "",
     "desc": "Handheld Built-in Power Wash Mode, 3-way Shower Diverter with Pause Setting, 11 Inches Adjustable Extension Arm",
     "link": "https://amzn.to/4sz16n9",
@@ -403,13 +403,44 @@
     "id": "Knives",
     "title": "Dfito Chef Knife Sets",
     "category": "Home Kitchen",
-    "tags": ["Home Kitchen", "Home Knives", "Food Preparation"]
+    "tags": ["Home Kitchen", "Home Knives", "Food Preparation"],
     "price": "",
     "desc": "9 Pieces Professional Knife Set, High Carbon Stainless Steel Kitchen Chef Knife Set, Red Pakkawood Handle, Dishwasher Safe",
     "link": "https://amzn.to/4cG3iEH",
     "imageUrl": "https://m.media-amazon.com/images/I/81e1h4isgAL._AC_SL1500_.jpg"
+  },
+  {
+    "id": "Cooktop",
+    "title": "THOR Kitchen Professional 36-Inch Electric Cooktop",
+    "category": "Home Kitchen",
+    "tags": ["Home Kitchen", "Home Cooking", "Food Stove"],
+    "price": "",
+    "desc": "THOR Kitchen Professional 36-Inch Electric Cooktop - Model TEC36",
+    "link": "https://amzn.to/4sCowYI",
+    "imageUrl": "https://m.media-amazon.com/images/I/81hPJ-Yof-L._AC_SL1500_.jpg"
+  },
+  {
+    "id": "Airfryer",
+    "title": "Ninja Crispi 4-in-1 Glass Air Fryer",
+    "category": "Home Kitchen",
+    "tags": ["Home Kitchen", "Home Cooking", "Air Fryer"],
+    "price": "",
+    "desc": "450°F | Non-Toxic | 4QT & 6-Cup Glass Containers w/Lids | Microwave, Freezer, Dishwasher Safe | Max Crisp, Air Fry, Bake, Recrisp",
+    "link": "https://amzn.to/4sHVzdN",
+    "imageUrl": "https://m.media-amazon.com/images/I/71ikTqH2kiL._AC_SL1500_.jpg"
+  },
+  {
+    "id": "Lawnmower2",
+    "title": "eufy E15 Robot Lawn Mower",
+    "category": "Home Garden",
+    "tags": ["Home Garden", "Home Landscape", "Lawn Mower"],
+    "price": "",
+    "desc": "Max 0.2 Acres,Wireless Robot Mower with Auto Mapping,Vision Navigation,Multi-Zone Management,Robotic Lawnmower with AI Obstacle Avoidance",
+    "link": "https://amzn.to/4ulL8yh",
+    "imageUrl": "https://m.media-amazon.com/images/I/61NGjtYcszL._AC_SL1500_.jpg"
   }
 ]
+
 
 
 
