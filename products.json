@@ -137,7 +137,7 @@
     "price": "",
     "desc": "PhatroyYee Mosquito Zapper 4500V, Waterproof Portable Fly Zapper, Rechargeable Electric Mosquito Killer",
     "link": "https://tinyurl.com/y9nud7xa",
-    "imageUrl": "https://m.media-amazon.com/images/I/81coDp8w38L._AC_SL1500_.jpgg"
+    "imageUrl": "https://m.media-amazon.com/images/I/81coDp8w38L._AC_SL1500_.jpg"
   },
   {
     "id": "Sauna",
@@ -238,8 +238,169 @@
     "desc": "Digital Display, 12-Pound Capacity, Auto Shutoff, Includes Rotisserie Spit, Multi-Purpose Basket, 3 Cooking Functions",
     "link": "https://amzn.to/4bhIG3m",
     "imageUrl": "https://m.media-amazon.com/images/I/714k-BwcylL._AC_SL1500_.jpg"
+  },
+  {
+    "id": "Babymonitor",
+    "title": "Nanit Pro Smart Baby Monitor",
+    "category": "Kids",
+    "tags": ["Baby Monitor", "Baby Crib", "Baby Camera"],
+    "price": "",
+    "desc": "1080p Wi-Fi Video Camera, 2-Way Audio, See Your Baby from Anywhere, Sound/Motion/Cry Notifications, Night Vision",
+    "link": "https://amzn.to/4s6yYaW",
+    "imageUrl": "https://m.media-amazon.com/images/I/61cqkZ6CHoL._AC_SL1500_.jpg"
+  },
+  {
+    "id": "Homelighting",
+    "title": "Govee RGBIC Smart Table Lamp 2",
+    "category": "Home Living",
+    "tags": ["Home Lighting", "Home Decor", "Smart Lighting"],
+    "price": "",
+    "desc": "Touch Bedside Small Table Lamp Compatible with SmartThings, Matter, Alexa, Desk Lamp with 64 Scene Modes, Nightstand Lamp for Bedroom Living Room Night Light",
+    "link": "https://amzn.to/47imghh",
+    "imageUrl": "https://m.media-amazon.com/images/I/618yTEtHltL._AC_SL1500_.jpg"
+  },
+  {
+    "id": "Digitalcalendar",
+    "title": "Cozyla Digital Calendar+",
+    "category": "Home Living",
+    "tags": ["Home Organizer", "Digital Calendar", "Home Office"],
+    "price": "",
+    "desc": "32 inch Wall Planner Touch Screen Chore Chart Customize Dashboard Smart Electronic Calendar for Family Schedules Meal Planner Support Any Google Play App Wall Mount White",
+    "link": "https://amzn.to/413v2fe",
+    "imageUrl": "https://m.media-amazon.com/images/I/71RB1YRqKjL._AC_SL1500_.jpg"
+  },
+  {
+    "id": "Trainerbike",
+    "title": "JLL Smart Cross Trainer Recumbent Exercise Bike",
+    "category": "Home Fitness",
+    "tags": ["Home Fitness", "Home Gym", "Trainer Bike"],
+    "price": "",
+    "desc": "8-Level Magnetic Resistance Stationary Machine, LCD, Bluetooth Fit App, Home Workout Cardio Equipment, Seniors & Adults",
+    "link": "https://tinyurl.com/47h6df97",
+    "imageUrl": "https://m.media-amazon.com/images/I/71PWYGXpLlL._AC_SL1500_.jpg"
+  },
+  {
+    "id": "Stairstepper",
+    "title": "Sunny Health & Fitness Stair Stepper",
+    "category": "Home Fitness",
+    "tags": ["Home Fitness", "Home Gym", "Stair Stepper"],
+    "price": "",
+    "desc": "Extended Step Range Climber Machine for Legs, Core and Glute Workouts, Connection with Free SunnyFit App",
+    "link": "https://tinyurl.com/5276rvxb",
+    "imageUrl": "https://m.media-amazon.com/images/I/61vlTDPuepL._AC_SL1500_.jpg"
+  },
+  {
+    "id": "ARGlasses",
+    "title": "RayNeo Air 4 Pro AR/XR Glasses",
+    "category": "Home Entertainment",
+    "tags": ["AR Glasses", "Home Entertainment", "VR"],
+    "price": "",
+    "desc": "HDR10 Video Display, Vision 4000 Chip, Audio by Bang & Olufsen, 3D Movies & Gaming Smart Glasses",
+    "link": "https://tinyurl.com/5276rvxb",
+    "imageUrl": "https://m.media-amazon.com/images/I/61IVmkuUBBL._AC_SL1500_.jpg"
+  },
+  {
+    "id": "Patiofurniture",
+    "title": "HERA'S HOUSE 5 Piece Patio Furniture Set",
+    "category": "Home Living",
+    "tags": ["Patio Furniture", "Home Outdoors", "Furniture"],
+    "price": "",
+    "desc": "2 x Cushioned Metal Chair, 2 x Ottoman, 1 x 3-Seat Sofa, All Cushioned 7 Seats Outdoor Conversation Set for Lawn Garden Backyard",
+    "link": "https://tinyurl.com/uyhevffd",
+    "imageUrl": "https://m.media-amazon.com/images/I/A1N5Hwatw9L._AC_SL1500_.jpg"
+  },
+  {
+    "id": "3DPrinter",
+    "title": "Bambu Lab P1S 3D Printer",
+    "category": "Home Workshop",
+    "tags": ["3D Printer", "Home Workshop", "Home Productivity"],
+    "price": "",
+    "desc": "Fully Enclosed, Support Up to 16 Colors/Multi Materials, 500mm/s Fast Printing & High Precision, CoreXY & Auto Bed Leveling",
+    "link": "https://amzn.to/4uuwTYg",
+    "imageUrl": "https://m.media-amazon.com/images/I/61IXKmM4f9L._AC_SL1500_.jpg"
+  },
+  {
+    "id": "Smartlock",
+    "title": "Yale Snow Keyed Deadbolt Smart Lock",
+    "category": "Home Security",
+    "tags": ["Home Lock", "Home Security", "Home Privacy"],
+    "price": "",
+    "desc": "Yale Snow Keyed Deadbolt Smart Lock with Google Matter",
+    "link": "https://amzn.to/4sEk5wz",
+    "imageUrl": "https://m.media-amazon.com/images/I/61BRXak0UtL._AC_SL1500_.jpg"
+  },
+  {
+    "id": "Smartthemostart",
+    "title": "Google Nest Themostat",
+    "category": "Home Living",
+    "tags": ["Home Monitor", "Home Organizer", "Home Saver"],
+    "price": "",
+    "desc": "Smart Thermostat for Home - Programmable Wifi Thermostat - Charcoal",
+    "link": "https://amzn.to/47r1UlM",
+    "imageUrl": "https://m.media-amazon.com/images/I/61A+x8c9VeL._AC_SL1500_.jpg"
+  },
+  {
+    "id": "Smartcalendar",
+    "title": "Apolosign 15.6-inch Digital Calendar",
+    "category": "Home Living",
+    "tags": ["Home Monitor", "Home Organizer", "Home Calendar"]
+    "price": "",
+    "desc": "Dual Mode Smart Wall Planner, No Subscription, Install Apps, Sync Calendars, Electronic Touchscreen Interactive Display for Family",
+    "link": "https://amzn.to/4sbI32n",
+    "imageUrl": "https://m.media-amazon.com/images/I/718gFU1KbtL._AC_SL1500_.jpg"
+  },
+  {
+    "id": "Fitnessbike1",
+    "title": "YOSUDA Exercise Bike",
+    "category": "Home Fitness",
+    "tags": ["Home Fitness", "Home Gym", "Home Exercise"]
+    "price": "",
+    "desc": "Brake Pad Stationary Bike for Home with Exclusive App, Magnetic Indoor Cycling Bike with 300 lb Weight Capacity",
+    "link": "https://tinyurl.com/2mb2f38y",
+    "imageUrl": "https://m.media-amazon.com/images/I/71VufNdqM7L._AC_SL1500_.jpg"
+  },
+  {
+    "id": "Gazebo",
+    "title": "Aoxun 10x12 Gazebo",
+    "category": "Home Living",
+    "tags": ["Home Gazebo", "Home Outdoor", "Home Activty"]
+    "price": "",
+    "desc": "Hardtop Gazebo with Double Galvanized Steel Roof Outdoor Pavilion with Breathable Netting and Privacy Curtain for Backyard",
+    "link": "https://amzn.to/4bbJDdh",
+    "imageUrl": "https://m.media-amazon.com/images/I/81jLsZpUjDL._AC_SL1500_.jpg"
+  },
+  {
+    "id": "Coffeemachine",
+    "title": "Rocket Espresso",
+    "category": "Home Kitchen",
+    "tags": ["Home Kitchen", "Home Coffee", "Espresso Machine"]
+    "price": "",
+    "desc": "Rocket Espresso Appartamento TCA Espresso Machine (Black/Copper)",
+    "link": "https://amzn.to/3P8IrQu",
+    "imageUrl": "https://m.media-amazon.com/images/I/61+Z0kmGqUL._AC_SL1065_.jpg"
+  },
+  {
+    "id": "HomeVacuum2",
+    "title": "Bissell Vacuum Cleaner",
+    "category": "Home Cleaning",
+    "tags": ["Home Cleaner", "Home Vacuum", "Vacuum Machine"]
+    "price": "",
+    "desc": "Bissell Pet Hair Eraser Allergen Lift-Off with Powerful Suction, HEPA, Tangle-Free Brush Roll, 39883",
+    "link": "https://amzn.to/40kDuXf",
+    "imageUrl": "https://m.media-amazon.com/images/I/71UcKaNoGEL._AC_SL1500_.jpg"
+  },
+  {
+    "id": "Showerhead",
+    "title": "G-Promise All Metal 14 Inches Rain Shower Head",
+    "category": "Home Bath",
+    "tags": ["Home Cleaner", "Home Vacuum", "Vacuum Machine"]
+    "price": "",
+    "desc": "Handheld Built-in Power Wash Mode, 3-way Shower Diverter with Pause Setting, 11 Inches Adjustable Extension Arm",
+    "link": "https://amzn.to/4sz16n9",
+    "imageUrl": "https://m.media-amazon.com/images/I/811ljznJL9L._AC_SL1500_.jpg"
   }
 ]
+
 
 
 
