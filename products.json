@@ -12,7 +12,7 @@
   {
     "id": "Airpurify2",
     "title": "Alen Air Purifier BreatheSmart 75i",
-    "category": "Home Cleaning",
+    "category": "Home Living",
     "tags": ["Air purifier", "Clean air", "Healthy home"],
     "price": "",
     "desc": "HEPA Fresh Filter + Carbon for Large Rooms up to 2800 Sq. Ft",
@@ -22,7 +22,7 @@
   {
     "id": "Airpurify3",
     "title": "Air Oasis iAdaptAir 2.0 H13",
-    "category": "Home Cleaning",
+    "category": "Home Living",
     "tags": ["Air purifier", "Clean air", "Healthy home"],
     "price": "",
     "desc": "HEPA Filter Air Purifier Reduces 99% of Viruses, Mold, Dust, Smoke, Pollen & Odors Quietest on The Market",
@@ -32,7 +32,7 @@
   {
     "id": "Airpurify1",
     "title": "BLUEAIR Air Purifier",
-    "category": "Home Cleaning",
+    "category": "Home Living",
     "tags": ["Air purifier", "Clean air", "Healthy home"],
     "price": "",
     "desc": "Large Rooms & Home - Odor Eliminating Cleans up to 3385 ft², HEPASilent, Smart WiFi, Auto Mode, Doubles as Table, Removes Dust, Smoke, Pet Hair, AHAM Verified, Blue Signature",
@@ -62,7 +62,7 @@
   {
     "id": "showerhd1",
     "title": "G-Promise All Metal 16 Inch Shower Head",
-    "category": "Home Cleaning",
+    "category": "Home Bath",
     "tags": ["Home shower", "Bath", "Shower Head"],
     "price": "",
     "desc": "Massage Mode Handheld, Rain Shower Head with Handheld Spray Combo",
@@ -438,6 +438,306 @@
     "desc": "Max 0.2 Acres,Wireless Robot Mower with Auto Mapping,Vision Navigation,Multi-Zone Management,Robotic Lawnmower with AI Obstacle Avoidance",
     "link": "https://amzn.to/4ulL8yh",
     "imageUrl": "https://m.media-amazon.com/images/I/61NGjtYcszL._AC_SL1500_.jpg"
+  },
+  {
+    "id": "Knives2",
+    "title": "ROCOCO 13PCS Butcher Cleaver Knife Set",
+    "category": "Home Kitchen",
+    "tags": ["Home Kitchen", "Home Knives", "Chef Knives"],
+    "price": "",
+    "desc": "Meat Cutting Serbian Chef Viking Boning Knife with Roll Bag for Kitchen Outdoor BBQ Camping",
+    "link": "https://amzn.to/4sb1EzA",
+    "imageUrl": "https://m.media-amazon.com/images/I/91lYcpwiJqL._AC_SL1500_.jpg"
+  },
+  {
+    "id": "000001",
+    "title": "Coway Airmega AP-1512HH(W) True HEPA Purifier",
+    "category": "Home Living",
+    "tags": ["Home Air Purifier", "Home Health", "Air Purifier"],
+    "price": "",
+    "desc": "Air Quality Monitoring, Auto, Timer, Filter Indicator, and Eco Mode",
+    "link": "https://amzn.to/4rBYIem",
+    "imageUrl": "https://m.media-amazon.com/images/I/61Cgh4ol4oL._AC_SL1500_.jpg"
+  },
+  {
+    "id": "000002",
+    "title": "reMarkable Paper Pro Bundle",
+    "category": "Home Living",
+    "tags": ["Home Productivity", "Home Work", "Notepad"],
+    "price": "",
+    "desc": "eMarkable Paper Tablet, and Marker Plus Pen with Eraser",
+    "link": "https://amzn.to/4lxo5g6",
+    "imageUrl": "https://m.media-amazon.com/images/I/71dzWnEOQvL._AC_SL1500_.jpg"
+  },
+  {
+    "id": "000003",
+    "title": "LWOHSI PG108 Alarm System for Home",
+    "category": "Home Security",
+    "tags": ["Home Security", "Home Alarm", "Alarm System"],
+    "price": "",
+    "desc": "Alarm Kit with Phone APP Alert, Door/Window Sensor, Remote, Compatible with Alexa and Google for House, Apartment",
+    "link": "https://amzn.to/4baivLG",
+    "imageUrl": "https://m.media-amazon.com/images/I/71wcOoVtwTL._AC_SL1500_.jpg"
+  },
+  {
+    "id": "000004",
+    "title": "Ring Video Wired Doorbell",
+    "category": "Home Security",
+    "tags": ["Home Security", "Home Camera", "Doorbell"],
+    "price": "",
+    "desc": "Home or business security, Two-Way Talk, advanced motion detection, HD camera and real-time alerts",
+    "link": "https://amzn.to/4svXbIh",
+    "imageUrl": "https://m.media-amazon.com/images/I/51EXNJ19D3L._SL1500_.jpg"
+  },
+  {
+    "id": "000005",
+    "title": "GHome Smart Fingerprint Door Lock",
+    "category": "Home Security",
+    "tags": ["Home Security", "Home Lock", "Doorbell"],
+    "price": "",
+    "desc": "4 in 1 Smart Fingerprint Door Knob with Keypad, App Control, Auto Lock, Biometric Door Knob",
+    "link": "https://amzn.to/4sHxAvl",
+    "imageUrl": "https://m.media-amazon.com/images/I/71llkSRvAmL._AC_SL1500_.jpg"
+  },
+  {
+    "id": "000007",
+    "title": "Balance Board Indoor Surfboard",
+    "category": "Home Fitness",
+    "tags": ["Home Fitness", "Home Exercise", "Balance Board"],
+    "price": "",
+    "desc": "Surf Style Home Fitness with Wheel for Exercise, Athletic Training and Board Sports - Fun Workout Equipment",
+    "link": "https://amzn.to/4bIAKcE",
+    "imageUrl": "https://m.media-amazon.com/images/I/61yV-0dtJxL._AC_SL1200_.jpg"
+  },
+  {
+    "id": "000008",
+    "title": "Echelon Smart Fitness Bike",
+    "category": "Home Fitness",
+    "tags": ["Home Fitness", "Home Exercise", "Bike"],
+    "price": "",
+    "desc": "Seamlessly adjust intensity with 32 motorized resistance levels, ensuring a dynamic and challenging workout tailored to your fitness goals",
+    "link": "https://amzn.to/3P87WS6",
+    "imageUrl": "https://m.media-amazon.com/images/I/712pmjw1mkL._AC_SL1500_.jpg"
+  },
+  {
+    "id": "000009",
+    "title": "Royal Gourmet CC1830S BBQ Charcoal Grill and Offset Smoker",
+    "category": "Home Living",
+    "tags": ["Home Outdoors", "Home Grill", "Outdoor Cooking"],
+    "price": "",
+    "desc": "823 Square Inch cooking surface, Outdoor for Camping | Black",
+    "link": "https://amzn.to/4ltcVJb",
+    "imageUrl": "https://m.media-amazon.com/images/I/71YY1-m3YkL._AC_SL1500_.jpg"
+  },
+  {
+    "id": "000010",
+    "title": "Modern Shade",
+    "category": "Home Living",
+    "tags": ["Home Outdoors", "Home Shade", "Gazebo"],
+    "price": "",
+    "desc": "The Aura Cedar Wood Entertainment Bar Center, Wood Gazebo with Shelves & Paper Towel Holder, Grill Gazebo",
+    "link": "https://amzn.to/4rzXErw",
+    "imageUrl": "https://m.media-amazon.com/images/I/91hcX7xgrOL._AC_SL1500_.jpg"
+  },
+  {
+    "id": "000011",
+    "title": "Patio Furniture Sets with 45in Gas Fire Pit Table",
+    "category": "Home Living",
+    "tags": ["Home Outdoors", "Home Furniture", "Outdoor Furniture"],
+    "price": "",
+    "desc": "8 Pieces Outdoor Metal Conversation Sets with 1 x 3-Seat Sofa, 2 Single Chairs, 2 Swivel Chairs and 2 Ottomans, Beige Cushion",
+    "link": "https://amzn.to/4uuYloq",
+    "imageUrl": "https://m.media-amazon.com/images/I/81BEVm2FDLL._AC_SL1500_.jpg"
+  },
+  {
+    "id": "000012",
+    "title": "EDISHINE 2 Pack Modern Outdoor Wall Lights",
+    "category": "Home Living",
+    "tags": ["Home Outdoors", "Home Lighting", "Outdoor Lights"],
+    "price": "",
+    "desc": "Dimmable, 39.3in Linear Led Exterior Wall Light, 3CCT, Iron & PC, IP65 Waterproof, Long Exterior Lighting Fixtures",
+    "link": "https://amzn.to/4bIu0vh",
+    "imageUrl": "https://m.media-amazon.com/images/I/71fiEat+q+L._AC_SL1500_.jpg"
+  },
+  {
+    "id": "000013",
+    "title": "CHEF iQ Smart Pressure Cooker",
+    "category": "Home Kitchen",
+    "tags": ["Home Kitchen", "Home Cooking", "Pressure Cooker"],
+    "price": "",
+    "desc": "WiFi and Built-in Scale - Easy-to-Use 10-in-1 Multicooker with 500+ Guided Recipes - Rice Cooker, Slow Cooker, Instant Meals",
+    "link": "https://amzn.to/40wqk9G",
+    "imageUrl": "https://m.media-amazon.com/images/I/71qaNsaMkpL._AC_SL1500_.jpg"
+  },
+  {
+    "id": "000014",
+    "title": "Veken 10in Luxurious All Metal Rain Shower Head",
+    "category": "Home Bath",
+    "tags": ["Home Bathroom", "Home Shower", "Shower Head"],
+    "price": "",
+    "desc": "Handheld Spray Combo, High Pressure Rainfall Square Shower Heads with Extension Arm, Wide Dual Showerhead",
+    "link": "https://amzn.to/4dliiIi",
+    "imageUrl": "https://m.media-amazon.com/images/I/81IKL-4xiyL._AC_SL1500_.jpg"
+  },
+  {
+    "id": "000015",
+    "title": "Mecity 2 Slice Touch Screen Toaster",
+    "category": "Home Kitchen",
+    "tags": ["Home Kitchen", "Instant Food", "Toaster"],
+    "price": "",
+    "desc": "Wide Slot, Stainless Steel Smart Toaster for Bagels, Muffins, Waffles, Gluten-Free Breads, Defrost, Reheat, Timer",
+    "link": "https://tinyurl.com/22k4mmc9",
+    "imageUrl": "https://m.media-amazon.com/images/I/61BfaH-6deL._AC_SL1500_.jpg"
+  },
+  {
+    "id": "000016",
+    "title": "Apple 2026 MacBook Neo 13-inch Laptop",
+    "category": "Home Living",
+    "tags": ["Home Tech", "Apple MachBook", "MackBook Neo"],
+    "price": "",
+    "desc": "A18 Pro chip: Built for AI and Apple Intelligence, Liquid Retina Display, 8GB Unified Memory, 256GB SSD Storage, 1080p FaceTime HD Camera",
+    "link": "https://amzn.to/40jYnSs",
+    "imageUrl": "https://m.media-amazon.com/images/I/61yHzuw8VBL._AC_SL1500_.jpg"
+  },
+  {
+    "id": "000017",
+    "title": "Sony STRAZ1000ES Premium ES 7.2 CH 8K A/V Receiver",
+    "category": "Home Living",
+    "tags": ["Home Tech", "Home Entertainment", "Home Cinema"],
+    "price": "",
+    "desc": "Truly Immersive audio with Digital Cinema Auto Calibration IX and 360 Spatial Sound Mapping",
+    "link": "https://amzn.to/4bjkQEp",
+    "imageUrl": "https://m.media-amazon.com/images/I/417lFaI+iKL._AC_SL1208_.jpg"
+  },
+  {
+    "id": "000018",
+    "title": "GYMAX 3 in 1 Multi Game Table",
+    "category": "Home Living",
+    "tags": ["Home Games", "Home Entertainment", "Foosball"],
+    "price": "",
+    "desc": "Swivel Combo Game Table with Foosball, Billiards & Table Tennis, Space-Saving Design for Family Night, Home, Game Room, Office",
+    "link": "https://amzn.to/4rQDzy1",
+    "imageUrl": "https://m.media-amazon.com/images/I/71rZjR2sCHL._AC_SL1500_.jpg"
+  },
+  {
+    "id": "000019",
+    "title": "EastPoint Sports Official Size Dart Board",
+    "category": "Home Living",
+    "tags": ["Home Games", "Home Entertainment", "Dart Board"],
+    "price": "",
+    "desc": "Cabinet Set- Easy-Assembly & Complete with 6 Deluxe Steel Tip Darts and Accessories",
+    "link": "https://amzn.to/4lfTEec",
+    "imageUrl": "https://m.media-amazon.com/images/I/71qgUIDdUjL._AC_SL1500_.jpg"
+  },
+  {
+    "id": "000020",
+    "title": "GEARONIC Solo Office",
+    "category": "Home Workshop",
+    "tags": ["Home Office", "Home Workshop", "Office Booth"],
+    "price": "",
+    "desc": "Sound Booth Pod Audio Privacy, Mobile Roller with Desk, LED Light, Fans and AC USB Ports",
+    "link": "https://amzn.to/3N3BNuo",
+    "imageUrl": "https://m.media-amazon.com/images/I/71WZEuuu0HL._AC_SL1500_.jpg"
+  },
+  {
+    "id": "000021",
+    "title": "Ninja Espresso & Coffee Maker & Barista System",
+    "category": "Home Kitchen",
+    "tags": ["Home Kitchen", "Home Coffee", "Barista System"],
+    "price": "",
+    "desc": "3 Espresso Brew Styles, Single-Serve Coffee & Nespresso Capsule Compatible, Built-in Frother, Espresso, Cappuccino & Latte Maker",
+    "link": "https://amzn.to/4bfOcTX",
+    "imageUrl": "https://m.media-amazon.com/images/I/71TEecJZzWL._AC_SL1500_.jpg"
+  },
+  {
+    "id": "000022",
+    "title": "2LB Bread Maker Machine",
+    "category": "Home Kitchen",
+    "tags": ["Home Kitchen", "Home Baking", "Bread Maker"],
+    "price": "",
+    "desc": "17 in 1 Automatic Stainless Steel Bread Machine, Non-stick, Beginner-Friendly Controls, 15 Hour Timer, Easy to Clean Low Noise",
+    "link": "https://amzn.to/4u64dEy",
+    "imageUrl": "https://m.media-amazon.com/images/I/71DmieYJJbL._AC_SL1500_.jpg"
+  },
+  {
+    "id": "000023",
+    "title": "Hoover SmartWash+ Automatic Carpet Cleaner Machine",
+    "category": "Home Cleaning",
+    "tags": ["Home Cleaning", "Home Hoover", "Carpet Cleaner"],
+    "price": "",
+    "desc": "Carpet and Upholstery, Deep Cleaning Carpet Shampooer Machine, Pair with a Hoover Carpet Cleaner Solution",
+    "link": "https://amzn.to/47jAgXP",
+    "imageUrl": "https://m.media-amazon.com/images/I/71EYr+fsZdL._AC_SL1500_.jpg"
+  },
+  {
+    "id": "000024",
+    "title": "Klipsch Reference R-26FA Dolby Atmos Floorstanding Speaker (Pair)",
+    "category": "Home Entertainment",
+    "tags": ["Home Entertainment", "Home Speakers", "Audio System"],
+    "price": "",
+    "desc": "Subwoofer – Premium Home Theater Tower & Deep Bass Sub Bundle",
+    "link": "https://amzn.to/4rduduX",
+    "imageUrl": "https://m.media-amazon.com/images/I/61A2UiTtxTL._AC_SL1200_.jpg"
+  },
+  {
+    "id": "000025",
+    "title": "Linkind Matter Smart Bulbs",
+    "category": "Home Living",
+    "tags": ["Home Lighting", "Home Bulbs", "Smart Lighting"],
+    "price": "",
+    "desc": "E12 Led Bulb Works with Alexa/Apple Home/Google Home, Smart Light Bulbs, WiFi Candelabra B11 Bulbs, RGBTW Color Changing Light Bulb",
+    "link": "https://amzn.to/4svLoZU",
+    "imageUrl": "https://m.media-amazon.com/images/I/71w+GwEJmeL._AC_SL1500_.jpg"
+  },
+  {
+    "id": "000026",
+    "title": "Hisense C2 Ultra, Triple Laser Smart Portable Projector",
+    "category": "Home Entertainment",
+    "tags": ["Home Entertainment", "Home Projector", "Smart Projector"],
+    "price": "",
+    "desc": "4K UHD, 3,000 Lumens, 65” – 300”, Dolby Vision, IMAX Enhanced, Sound by JBL, Netflix Included",
+    "link": "https://amzn.to/46HyM9F",
+    "imageUrl": "https://m.media-amazon.com/images/I/81elrks1MoL._AC_SL1500_.jpg"
+  },
+  {
+    "id": "000027",
+    "title": "MERACH Exercise Bike",
+    "category": "Home Fitness",
+    "tags": ["Home Fitness", "Home Exercise", "Fitness Bike"],
+    "price": "",
+    "desc": "Brake Pad Stationary Bike with Exclusive App, Low Noise Indoor Cycling Bike with 300lbs Weight Capacity, Tablet Mount and Fitness Courses for Weight Loss",
+    "link": "https://amzn.to/4d4BvOc",
+    "imageUrl": "https://m.media-amazon.com/images/I/71gzCwnK0dL._AC_SL1500_.jpg"
+  },
+  {
+    "id": "000028",
+    "title": "Twister Arm Trainer",
+    "category": "Home Fitness",
+    "tags": ["Home Fitness", "Home Exercise", "Arm Trainer"],
+    "price": "",
+    "desc": "3 in 1 Hydraulic Power Chest Workout Equipment with Ab Roller Wheels and Hooks, Adjustable 22-440lbs Arm Trainer",
+    "link": "https://amzn.to/4sNOwAH",
+    "imageUrl": "https://m.media-amazon.com/images/I/71dpYf4-69L._AC_SL1500_.jpg"
+  },
+  {
+    "id": "000029",
+    "title": "pooboo Folding Exercise Bike",
+    "category": "Home Fitness",
+    "tags": ["Home Fitness", "Home Exercise", "Fitness Bike"],
+    "price": "",
+    "desc": "Foldable Upright Stationary Bike, Indoor Cycling Magnetic X-Bike with 8-Level Adjustable Resistance, 6.6 LBS Flywheel, 300LB Capacity",
+    "link": "https://amzn.to/4ukCJeH",
+    "imageUrl": "https://m.media-amazon.com/images/I/71Hcmza9BFL._AC_SL1500_.jpg"
+  },
+  {
+    "id": "000030",
+    "title": "PURPLE LEAF 12' X 16' Permanent Hardtop Gazebo",
+    "category": "Home Living",
+    "tags": ["Home Living", "Home Outdoors", "Gazebo"],
+    "price": "",
+    "desc": "Outdoor Aluminum Gazebo with Heavy Duty Galvanized Steel Double Roof for Patio Lawn Garden Aluminum with Netting and Curtains Grey",
+    "link": "https://amzn.to/4ldy4ad",
+    "imageUrl": "https://m.media-amazon.com/images/I/81TqfFPVAwL._AC_SL1500_.jpg"
   }
 ]
 
